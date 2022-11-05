@@ -17,6 +17,9 @@ jobs:
         with:
           node-version: 18
 
+      - name: Set up React scripts
+        run: npm install react-scripts@5.0.1
+
       - name: Build
         run: npm run build
 
