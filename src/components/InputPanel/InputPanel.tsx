@@ -1,10 +1,13 @@
 import React, {useState} from "react";
-import {FormControl, FormLabel, Box, Input, Flex, Select, Spacer} from "@chakra-ui/react";
+import {FormControl, FormLabel, Box, Input, Flex, Spacer} from "@chakra-ui/react";
 import {CurrencySelector} from "../CurrencySelector/CurrencySelector";
 
 export const InputPanel = () => {
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     const [startDate, setStartDate] = useState<string | null>(null)
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     const [endDate, setEndDate] = useState<string | null>(null)
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     const [currency, setCurrency] = useState<string | null>(null)
 
     return (
